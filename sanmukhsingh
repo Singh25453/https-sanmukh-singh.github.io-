@@ -1,0 +1,102 @@
+import React from "react";
+
+export default function SanmukhWebsite() {
+  return (
+    <div className="min-h-screen bg-gray-50 p-6">
+      <div className="max-w-4xl mx-auto bg-white shadow-xl rounded-2xl p-6">
+        <h1 className="text-4xl font-bold text-center text-blue-700">Sanmukh Singh</h1>
+        <p className="text-center text-gray-600 mt-2">Factory Operations Leader | Lean Manufacturing Expert</p>
+
+        <div className="mt-4 text-center text-sm text-gray-500">
+          <p>📞 +91 91674 27669 | +91 98676 20013</p>
+          <p>📧 sanmukhs@gmail.com | sanmukh.singh@outlook.com</p>
+          <p>🔗 <a className="text-blue-600 hover:underline" href="https://www.linkedin.com/in/sanmukhsingh" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a></p>
+        </div>
+
+        <section className="mt-6">
+          <h2 className="text-2xl font-semibold text-gray-800">Profile Summary</h2>
+          <p className="mt-2 text-gray-700">
+            Results-driven Factory Operations Leader with over 20 years of expertise in steel and industrial manufacturing. Proven track record in strategic operational management, lean transformation, and team leadership. Skilled in driving efficiency improvements, ensuring EHS compliance, and fostering innovation across global operations.
+          </p>
+        </section>
+
+        <section className="mt-6">
+          <h2 className="text-2xl font-semibold text-gray-800">Core Competencies</h2>
+          <ul className="list-disc list-inside text-gray-700 mt-2 grid grid-cols-2 gap-x-4">
+            <li>Lean Manufacturing (Kaizen, 5S, SMED)</li>
+            <li>Agile Management (Certified Agile Coach)</li>
+            <li>Strategic Operations Leadership</li>
+            <li>EHS & Process Safety Compliance</li>
+            <li>Cross-functional Team Leadership</li>
+            <li>CAPEX & Project Execution</li>
+            <li>Supply Chain & Inventory Optimization</li>
+            <li>Quality Assurance & Audits</li>
+            <li>Industrial Engineering & Automation</li>
+            <li>Continuous Improvement Initiatives</li>
+            <li>People Development & Engagement</li>
+          </ul>
+        </section>
+
+        <section className="mt-6">
+          <h2 className="text-2xl font-semibold text-gray-800">Professional Experience</h2>
+          <div className="mt-2 text-gray-700 space-y-4">
+            <div>
+              <strong>Factory Head – General Manager</strong><br />
+              Ashar Locker India Pvt. Ltd (Valmont Industries, USA) – Mumbai, India<br />
+              <em>June 2018 – Present</em>
+              <ul className="list-disc list-inside">
+                <li>Led full lean transformation with visual management and Kaizen initiatives, achieving significant efficiency gains.</li>
+                <li>Spearheaded cost optimization projects, saving annually through redesigning pneumatic systems.</li>
+                <li>Championed EHS improvements, achieving zero LTI record for consecutive years.</li>
+                <li>Established agile cross-functional teams, accelerating process improvements by 15%.</li>
+              </ul>
+            </div>
+            <div>
+              <strong>Factory Head / Production Manager</strong><br />
+              Safintra Roofing India Ltd (Safal Steel Group, Africa) – Navi Mumbai, India<br />
+              <em>July 2010 – June 2018</em>
+              <ul className="list-disc list-inside">
+                <li>Developed wind-load testing systems, ensuring compliance with global standards.</li>
+                <li>Innovated production processes, reducing procurement costs by 30%.</li>
+                <li>Introduced new roofing profiles and solar mounting solutions for African markets.</li>
+              </ul>
+            </div>
+            <div>
+              <strong>Production Engineer</strong><br />
+              MSL Jindal Group – Raigad, Maharashtra, India<br />
+              <em>August 2004 – July 2010</em>
+              <ul className="list-disc list-inside">
+                <li>Implemented SMED projects, reducing tool change time by 30%.</li>
+                <li>Enhanced productivity through time & motion studies and poka-yoke systems.</li>
+                <li>Optimized furnace cycles, achieving 12% productivity gain.</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section className="mt-6">
+          <h2 className="text-2xl font-semibold text-gray-800">Education & Certifications</h2>
+          <ul className="list-disc list-inside text-gray-700 mt-2">
+            <li>PGDBM – Operations Management | We School, Mumbai, India – 2008</li>
+            <li>B.E. – Production Engineering | MIT Aurangabad, India – 2004</li>
+            <li>Diploma – Production & Industrial Engineering | Govt. Polytechnic, Amritsar – 1999</li>
+            <li>Lean Leader Certification – Valmont University, USA – 2019</li>
+            <li>Agile 100 & 200 – Agile Coach – Valmont University, USA – 2020</li>
+            <li>Chartered Engineer (India) – The Institute of Engineers – 2016</li>
+          </ul>
+        </section>
+
+        <section className="mt-6">
+          <h2 className="text-2xl font-semibold text-gray-800">Achievements</h2>
+          <ul className="list-disc list-inside text-gray-700 mt-2">
+            <li>Successfully implemented Lean principles, enhancing plant efficiency and employee engagement.</li>
+            <li>Designed innovative tooling systems, reducing import dependency and operational costs.</li>
+            <li>Optimized logistics and reduced shipping costs by 20% through packaging redesign.</li>
+            <li>Developed eco-efficient products aligned with sustainability goals.</li>
+            <li>Led R&D initiatives, introducing new products for international markets, enhancing safety and performance.</li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  );
+}
